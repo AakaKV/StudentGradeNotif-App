@@ -18,4 +18,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #Create Link to Application
+    path('home/', include('home.url')),
 ]
