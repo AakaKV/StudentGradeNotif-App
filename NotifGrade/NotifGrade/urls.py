@@ -17,9 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 
+    
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     #Create Link to Application
     #NotifGrade is the actual path in the site, I believe that home.urls is the name of the response
     path('NotifGrade/', include('home.urls')),
+    
 ]
