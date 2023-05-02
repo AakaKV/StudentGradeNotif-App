@@ -1,5 +1,6 @@
 from django.db import models
-# from calendarlogic import 
+#imports the calendar logic as calogic for brevity. Note that directory is placed then a dot
+import home.calogic
 
 
 # Create your models here.

@@ -20,6 +20,7 @@ from django.conf.urls import include
 urlpatterns = [
     #Sends User to index Page Automatically - Lee
     path('', include('home.urls')),
+    #Login for Admins of the site
     path('admin/', admin.site.urls),
     #Create Link to Application
     #NotifGrade is the actual path in the site, I believe that home.urls is the name of the response
