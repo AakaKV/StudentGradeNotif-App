@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<html>
+	<head>
+		<title>Study Assignments Page</title>
+		<h1> Welcome Student!</h1>
+		<h2><nav>
+		<a href="Classes.html">ClassLink</a>
+		<a href="grades.html">GradeLink</a>
+		<a href="HomePage.html">HomePageLink</a>
+		</h2></nav>
+	</head>
+	{%block content%}
+	Create new Assignments
+	<body>
+	<form method="post" action"/create/">
+		{{form.as_p}}
+		<button type="submit", name="save"> Create New Assignment</button>
+
+	</form>
+	
+	
+	</body>
+	{%block content%}
+	
+	<footer>
+		<h5>	Contact information: lweather@ivytech.edu	lnettavo@ivytech.edu	kboring@ivytech.edu</h5>
+	</footer>
+
+</html>
